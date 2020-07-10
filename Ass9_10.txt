@@ -1,0 +1,85 @@
+### Ass-10
+
+### Covid-19 GitHub repo
+
+
+
+age = input("Are you a cigarette addict older than 75 years old? : ").title().strip()
+
+if age == "Yes":
+
+    age = True
+
+elif age == "No":
+
+    age = False
+
+else:
+
+    age = input("Enter 'Yes' or 'No', carefully please.. : ").title().strip()
+
+    if age == "Yes":
+
+        age = True
+
+    else:
+
+        age = False
+
+    
+
+chronic = input("Do you have a severe chronic disease? : ").title().strip()     
+
+if chronic == "Yes":
+
+    chronic = True
+
+elif chronic == "No":
+
+    chronic = False
+
+else:
+
+    chronic = input("Enter 'Yes' or 'No', carefully please.. : ").title().strip()
+
+    if chronic == "Yes":
+
+        chronic = True
+
+    else:
+
+        chronic = False
+
+    
+
+immune = input("Is your immune system too weak? : ").title().strip()            
+
+if immune == "Yes":
+
+    immune = True
+
+elif immune == "No":
+
+    immune = False
+
+else:
+
+    immune = input("Enter 'Yes' or 'No', carefully please.. : ").title().strip()
+
+    if immune == "Yes":
+
+        immune = True
+
+    else:
+
+        immune = False
+
+        
+
+if bool(age and chronic and immune) == True:
+
+    print("You are in risky group")
+
+else:
+
+    print("You are not in risky group")
