@@ -1,5 +1,7 @@
 ### Ass11
 ### Find out if a given number is an "Armstrong Number".
+### https://github.com/devinlimit/deneme2
+### https://github.com/devinlimit/deneme2/blob/master/Ass9_10_11.ipynb
 
 ### An n-digit number that is the sum of the nth powers of its digits is called an n-Armstrong number. Examples :
 ### 371 = 33 + 73 + 13;

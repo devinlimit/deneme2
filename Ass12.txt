@@ -1,0 +1,20 @@
+### Ass12
+### Task : Write a program that takes a number from the user and 
+### prints the result to check if it is a prime number.
+
+number = int(input("Enter a positive integer number : "))
+
+a = 0
+b = 0
+ii = number - 1  
+while ii > 1:
+    if (number % ii == 0):
+        a = a + 1
+    else:
+        b = b + 1
+    ii = ii - 1
+    
+if a == 0:
+    print(number, "is a prime number")
+else:
+    print(number, "is a not prime number")
