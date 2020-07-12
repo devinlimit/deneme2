@@ -1,0 +1,13 @@
+### Ass12 - Fibonacci numbers (for)
+
+fibolist = []
+a = 1
+
+for i in range(10):
+        if i < 2:
+            fibolist.append(a)
+        else:
+            a = fibolist[i-2] + fibolist[i-1]
+            fibolist.append(a)
+            
+print(fibolist)
