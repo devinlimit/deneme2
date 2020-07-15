@@ -1,0 +1,22 @@
+### Ass14 - Prime number in a range
+
+n = int(input("Enter a positive integer number to check how many prime number included in range  : "))
+
+primelist = []
+nonprimelist = []
+
+for i in range(n, 1, -1):
+    a = 0
+    b = 0
+    ii = i - 1
+    while ii > 1:
+        if (i % ii == 0):
+            a = a + 1
+        ii = ii - 1
+    if a > 0:
+        nonprimelist.append(i)
+    else:
+        primelist.append(i)
+        
+primelist.reverse()            
+print(primelist)
