@@ -1,0 +1,12 @@
+### Ass16
+### Leap year("""dividable by 4, not dividable by 100 unless dividable by 400""")
+
+year = int(input("Enter the year: "))
+year4 = bool (year % 4)
+year100 = bool (year % 100)
+year400 = bool (year % 400)
+
+if (bool((not year4 and year100) or (not year4 and not year400))) == True:
+    print(year, "is leap year")
+else:
+    print(year, "is not leap year")
